@@ -1,0 +1,195 @@
+2025-04-03 11:54:17,235 - abpw -INFO - ====================> Start User Registration Script <===========================
+2025-04-03 11:54:17,487 - abpw -INFO - ------------ Landing on home screen ------------ 
+2025-04-03 11:54:17,959 - abpw -INFO - Click on mobile number field
+2025-04-03 11:54:18,060 - abpw -INFO - Enter mobile number
+2025-04-03 11:54:18,906 - abpw -INFO - Enter bride/groom name
+2025-04-03 11:54:19,329 - abpw -INFO - Select gender
+2025-04-03 11:54:19,750 - abpw -INFO - Select mother tongue
+2025-04-03 11:54:20,850 - abpw -INFO - Enter date of birth
+2025-04-03 11:54:24,007 - abpw -INFO - Registration 1st screen (Basic Details) - Failed
+2025-04-03 11:55:24,611 - abpw -INFO - Registration OTP Validation - Failed
+2025-04-03 11:56:25,210 - abpw -INFO - 3rd Screen Basic Details - Failed
+2025-04-03 11:57:25,793 - abpw -INFO - 4th Screen Profile Photo Upload - Failed
+2025-04-03 11:58:26,371 - abpw -INFO - 4th Screen Photo ID Upload - Failed
+2025-04-03 11:59:26,952 - abpw -INFO - Get AWID From Home Page - Failed
+2025-04-03 12:10:34,317 - abpw -INFO - ====================> Start User Registration Script <===========================
+2025-04-03 12:10:34,580 - abpw -INFO - ------------ Landing on home screen ------------ 
+2025-04-03 12:10:35,000 - abpw -INFO - Click on mobile number field
+2025-04-03 12:10:35,101 - abpw -INFO - Enter mobile number
+2025-04-03 12:10:35,490 - abpw -INFO - Enter bride/groom name
+2025-04-03 12:10:35,964 - abpw -INFO - Select gender
+2025-04-03 12:10:36,380 - abpw -INFO - Select mother tongue
+2025-04-03 12:10:37,517 - abpw -INFO - Enter date of birth
+2025-04-03 12:10:40,864 - abpw -INFO - Click on validate OTP button
+2025-04-03 12:10:40,865 - abpw -INFO - Basic Details Is Completed
+2025-04-03 12:10:42,878 - abpw -INFO - ------------ Landing on OTP screen ------------ 
+2025-04-03 12:10:45,995 - abpw -INFO - Enter OTP
+2025-04-03 12:10:49,299 - abpw -INFO - Click on validate OTP button
+2025-04-03 12:10:54,408 - abpw -INFO - ------------ Landing on basic details screen ------------ 
+2025-04-03 12:10:54,814 - abpw -INFO - Select profile create by
+2025-04-03 12:10:55,400 - abpw -INFO - Enter bride/groom email id
+2025-04-03 12:10:55,773 - abpw -INFO - Select religion
+2025-04-03 12:10:56,177 - abpw -INFO - Select caste
+2025-04-03 12:10:56,594 - abpw -INFO - Select marital status
+2025-04-03 12:11:00,955 - abpw -INFO - Select location
+2025-04-03 12:11:01,402 - abpw -INFO - Select height
+2025-04-03 12:11:04,694 - abpw -INFO - Click on next step photo upload button
+2025-04-03 12:11:05,189 - abpw -INFO - Click on Photo Upload button
+2025-04-03 12:11:15,202 - abpw -INFO - Select photo path
+2025-04-03 12:11:21,029 - abpw -INFO - Select photo
+2025-04-03 12:11:21,342 - abpw -INFO - Select photo crop & save button
+2025-04-03 12:11:26,712 - abpw -INFO - Click on next step photo id upload button
+2025-04-03 12:11:26,774 - abpw -INFO - ------------ Landing on photo id screen ------------ 
+2025-04-03 12:11:30,312 - abpw -INFO - Select photo path
+2025-04-03 12:11:36,107 - abpw -INFO - Select photo
+2025-04-03 12:11:36,107 - abpw -INFO - Select photo id
+2025-04-03 12:11:36,157 - abpw -INFO - ------------ Landing on home screen ------------ 
+2025-04-03 12:11:37,132 - abpw -INFO - Create & Write In Excel Succesfully: AW21826732
+2025-04-03 12:11:37,137 - abpw -INFO - ====================> End User Registration Script <===========================
+2025-04-03 12:12:27,724 - abpw -INFO - ====================> Start Forgot Password Script <===========================
+2025-04-03 12:12:28,157 - abpw -INFO - => Click on login link
+2025-04-03 12:12:28,434 - abpw -INFO - => Click on login with password radio button
+2025-04-03 12:12:28,740 - abpw -INFO - => Click on forgot password link
+2025-04-03 12:12:28,906 - abpw -INFO - => Enter user AWID
+2025-04-03 12:12:29,204 - abpw -INFO - => Click on generate OTP button
+2025-04-03 12:13:02,092 - abpw -INFO - Set new password - Failed
+2025-04-03 15:21:33,178 - abpw -INFO - ====================> Start User Registration Script <===========================
+2025-04-03 15:21:33,419 - abpw -INFO - ------------ Landing on home screen ------------ 
+2025-04-03 15:21:33,893 - abpw -INFO - Click on mobile number field
+2025-04-03 15:21:33,988 - abpw -INFO - Enter mobile number
+2025-04-03 15:21:34,374 - abpw -INFO - Enter bride/groom name
+2025-04-03 15:21:35,644 - abpw -INFO - Select gender
+2025-04-03 15:21:36,049 - abpw -INFO - Select mother tongue
+2025-04-03 15:21:37,264 - abpw -INFO - Enter date of birth
+2025-04-03 15:21:40,588 - abpw -INFO - Click on validate OTP button
+2025-04-03 15:21:40,589 - abpw -INFO - Basic Details Is Completed
+2025-04-03 15:21:42,108 - abpw -INFO - ------------ Landing on OTP screen ------------ 
+2025-04-03 15:21:45,000 - abpw -INFO - Enter OTP
+2025-04-03 15:21:48,317 - abpw -INFO - Click on validate OTP button
+2025-04-03 15:21:53,426 - abpw -INFO - ------------ Landing on basic details screen ------------ 
+2025-04-03 15:21:53,859 - abpw -INFO - Select profile create by
+2025-04-03 15:21:54,440 - abpw -INFO - Enter bride/groom email id
+2025-04-03 15:21:54,810 - abpw -INFO - Select religion
+2025-04-03 15:21:55,228 - abpw -INFO - Select caste
+2025-04-03 15:21:55,607 - abpw -INFO - Select marital status
+2025-04-03 15:21:59,918 - abpw -INFO - Select location
+2025-04-03 15:22:00,354 - abpw -INFO - Select height
+2025-04-03 15:22:03,658 - abpw -INFO - Click on next step photo upload button
+2025-04-03 15:22:04,214 - abpw -INFO - Click on Photo Upload button
+2025-04-03 15:22:14,223 - abpw -INFO - Select photo path
+2025-04-03 15:22:20,070 - abpw -INFO - Select photo
+2025-04-03 15:22:20,378 - abpw -INFO - Select photo crop & save button
+2025-04-03 15:22:25,712 - abpw -INFO - Click on next step photo id upload button
+2025-04-03 15:22:25,775 - abpw -INFO - ------------ Landing on photo id screen ------------ 
+2025-04-03 15:22:28,850 - abpw -INFO - Select photo path
+2025-04-03 15:22:34,651 - abpw -INFO - Select photo
+2025-04-03 15:22:34,653 - abpw -INFO - Select photo id
+2025-04-03 15:22:34,736 - abpw -INFO - ------------ Landing on home screen ------------ 
+2025-04-03 15:22:35,653 - abpw -INFO - Create & Write In Excel Succesfully: AW42521245
+2025-04-03 15:22:35,654 - abpw -INFO - ====================> End User Registration Script <===========================
+2025-04-03 15:22:56,263 - abpw -INFO - ====================> Start Forgot Password Script <===========================
+2025-04-03 15:22:56,777 - abpw -INFO - => Click on login link
+2025-04-03 15:22:57,037 - abpw -INFO - => Click on login with password radio button
+2025-04-03 15:22:57,310 - abpw -INFO - => Click on forgot password link
+2025-04-03 15:22:57,475 - abpw -INFO - => Enter user AWID
+2025-04-03 15:22:57,748 - abpw -INFO - => Click on generate OTP button
+2025-04-03 15:23:01,500 - abpw -INFO - => Enter user OTP
+2025-04-03 15:23:01,792 - abpw -INFO - => Click on verify otp button
+2025-04-03 15:23:02,011 - abpw -INFO - => Enter new password
+2025-04-03 15:23:02,099 - abpw -INFO - => Enter confirm password
+2025-04-03 15:23:02,385 - abpw -INFO - ====================> End Forgot Password Script <===========================
+2025-04-03 15:26:36,053 - abpw -INFO - ====================> Start Partner Preference Script <===========================
+2025-04-03 15:26:39,541 - abpw -INFO - Login successfully for partner preference
+2025-04-03 15:26:44,927 - abpw -INFO - Click on my-matches header link
+2025-04-03 15:26:47,236 - abpw -INFO - Click on menu link
+2025-04-03 15:26:47,551 - abpw -INFO - Click on partner preference sub-menu link
+2025-04-03 15:26:48,023 - abpw -INFO - Click on edit age icon
+2025-04-03 15:26:52,495 - abpw -INFO - Select from age
+2025-04-03 15:26:54,990 - abpw -INFO - Select to age
+2025-04-03 15:26:55,307 - abpw -INFO - Click save age button
+2025-04-03 15:27:01,691 - abpw -INFO - Click religion icon
+2025-04-03 15:27:07,190 - abpw -INFO - Select religion
+2025-04-03 15:27:09,508 - abpw -INFO - Click on save religion button
+2025-04-03 15:27:12,086 - abpw -INFO - Click marital status icon
+2025-04-03 15:27:17,549 - abpw -INFO - Select marital status
+2025-04-03 15:27:19,851 - abpw -INFO - Click on save marital status button
+2025-04-03 15:27:19,853 - abpw -INFO - ====================> End Partner Preference Script <===========================
+2025-04-03 15:31:52,234 - abpw -INFO - ====================> Start My Matches Script <===========================
+2025-04-03 15:31:55,783 - abpw -INFO - Login successfully for my matches
+2025-04-03 15:32:01,164 - abpw -INFO - Click on my match link
+2025-04-03 15:32:01,387 - abpw -INFO - -------------- User: 1 --------------
+2025-04-03 15:32:01,435 - abpw -INFO - My Matches Uuser Details: T USER, 24Y, 5'10"
+AW31373362
+2025-04-03 15:32:01,481 - abpw -INFO - Age Matched from PP 24 - PASS
+2025-04-03 15:32:01,482 - abpw -INFO - ====================> End My Matches Script <===========================
+2025-07-02 11:26:37,210 - abpw -INFO - ====================> Start User Registration Script <===========================
+2025-07-02 11:26:37,497 - abpw -INFO - ------------ Landing on home screen ------------ 
+2025-07-02 11:26:38,670 - abpw -INFO - Click on mobile number field
+2025-07-02 11:26:38,829 - abpw -INFO - Enter mobile number
+2025-07-02 11:26:39,775 - abpw -INFO - Enter bride/groom name
+2025-07-02 11:26:40,162 - abpw -INFO - Select gender
+2025-07-02 11:26:40,516 - abpw -INFO - Select mother tongue
+2025-07-02 11:26:41,616 - abpw -INFO - Enter date of birth
+2025-07-02 11:26:44,923 - abpw -INFO - Click on validate OTP button
+2025-07-02 11:26:44,924 - abpw -INFO - Basic Details Is Completed
+2025-07-02 11:26:46,669 - abpw -INFO - ------------ Landing on OTP screen ------------ 
+2025-07-02 11:26:49,542 - abpw -INFO - Enter OTP
+2025-07-02 11:26:52,831 - abpw -INFO - Click on validate OTP button
+2025-07-02 11:26:57,922 - abpw -INFO - ------------ Landing on basic details screen ------------ 
+2025-07-02 11:26:58,341 - abpw -INFO - Select profile create by
+2025-07-02 11:26:58,893 - abpw -INFO - Enter bride/groom email id
+2025-07-02 11:26:59,237 - abpw -INFO - Select religion
+2025-07-02 11:26:59,562 - abpw -INFO - Select caste
+2025-07-02 11:26:59,890 - abpw -INFO - Select marital status
+2025-07-02 11:27:03,973 - abpw -INFO - Select location
+2025-07-02 11:27:04,354 - abpw -INFO - Select height
+2025-07-02 11:27:07,659 - abpw -INFO - Click on next step photo upload button
+2025-07-02 11:27:08,396 - abpw -INFO - Click on Photo Upload button
+2025-07-02 11:27:18,411 - abpw -INFO - Select photo path
+2025-07-02 11:27:24,212 - abpw -INFO - Select photo
+2025-07-02 11:27:24,515 - abpw -INFO - Select photo crop & save button
+2025-07-02 11:27:29,820 - abpw -INFO - Click on next step photo id upload button
+2025-07-02 11:27:29,887 - abpw -INFO - ------------ Landing on photo id screen ------------ 
+2025-07-02 11:27:59,987 - abpw -INFO - 4th Screen Photo ID Upload - Failed
+2025-07-02 11:29:00,576 - abpw -INFO - Get AWID From Home Page - Failed
+2025-07-02 11:45:53,410 - abpw -INFO - ====================> Login <===========================
+2025-07-02 11:45:55,418 - abpw -INFO - Login successfully for Plan Purchase
+2025-07-02 11:48:26,338 - abpw -INFO - ====================> Login <===========================
+2025-07-02 11:48:27,478 - abpw -INFO - Login successfully for Plan Purchase
+2025-07-02 11:49:20,853 - abpw -INFO - ====================> Login <===========================
+2025-07-02 11:49:22,022 - abpw -INFO - Login successfully for Plan Purchase
+2025-07-02 11:51:05,402 - abpw -INFO - ====================> Login <===========================
+2025-07-02 11:51:06,558 - abpw -INFO - Login successfully for Plan Purchase
+2025-07-02 12:57:08,926 - abpw -INFO - ====================> Login <===========================
+2025-07-02 12:57:10,903 - abpw -INFO - Login successfully for Plan Purchase
+2025-07-02 14:32:29,217 - abpw -INFO - ====================> Login <===========================
+2025-07-02 14:32:31,125 - abpw -INFO - Login successfully for Plan Purchase
+2025-07-02 14:35:28,737 - abpw -INFO - ====================> Login <===========================
+2025-07-02 14:35:29,826 - abpw -INFO - Login successfully for Plan Purchase
+2025-07-02 15:47:00,255 - abpw -INFO - ====================> Login <===========================
+2025-07-02 15:47:02,277 - abpw -INFO - Login successfully for Plan Purchase
+2025-07-02 15:52:39,943 - abpw -INFO - ====================> Login <===========================
+2025-07-02 15:52:41,876 - abpw -INFO - Login successfully for Plan Purchase
+2025-07-02 16:15:44,382 - abpw -INFO - ====================> Login <===========================
+2025-07-02 16:15:45,453 - abpw -INFO - Login successfully for Plan Purchase
+2025-07-02 22:08:44,325 - abpw -INFO - ====================> Login <===========================
+2025-07-02 22:08:45,845 - abpw -INFO - Login successfully for Plan Purchase
+2025-07-02 22:11:22,229 - abpw -INFO - ====================> Login <===========================
+2025-07-02 23:01:17,201 - abpw -INFO - ====================> Login <===========================
+2025-07-02 23:01:18,536 - abpw -INFO - Login successfully for Plan Purchase
+2025-07-02 23:04:26,112 - abpw -INFO - ====================> Login <===========================
+2025-07-02 23:04:27,297 - abpw -INFO - Login successfully for Plan Purchase
+2025-07-02 23:06:04,980 - abpw -INFO - ====================> Login <===========================
+2025-07-02 23:06:06,168 - abpw -INFO - Login successfully for Plan Purchase
+2025-07-02 23:35:24,255 - abpw -INFO - ====================> Login <===========================
+2025-07-02 23:35:25,383 - abpw -INFO - Login successfully for Plan Purchase
+2025-07-03 17:55:22,444 - abpw -INFO - ====================> Login <===========================
+2025-07-03 17:55:24,714 - abpw -INFO - Login successfully for Plan Purchase
+2025-07-03 18:00:15,838 - abpw -INFO - ====================> Login <===========================
+2025-07-03 18:00:17,855 - abpw -INFO - Login successfully for Plan Purchase
+2025-07-03 18:05:15,106 - abpw -INFO - ====================> Login <===========================
+2025-07-03 18:05:17,051 - abpw -INFO - Login successfully for Plan Purchase
+2025-07-03 18:10:12,895 - abpw -INFO - ====================> Login <===========================
+2025-07-03 18:15:15,436 - abpw -INFO - ====================> Login <===========================
+2025-07-08 15:57:05,385 - abpw -INFO - ====================> Login <===========================
+2025-07-08 15:57:06,479 - abpw -INFO - Login successfully for Plan Purchase
