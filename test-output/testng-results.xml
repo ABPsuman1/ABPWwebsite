@@ -1,155 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="0" failed="2" skipped="0">
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-07-02T22:11:10 IST" name="Default suite" finished-at="2025-07-02T22:11:32 IST" duration-ms="22600">
+  <suite started-at="2025-07-22T17:47:54 IST" name="Default suite" finished-at="2025-07-22T17:54:26 IST" duration-ms="391711">
     <groups>
     </groups>
-    <test started-at="2025-07-02T22:11:10 IST" name="Default test" finished-at="2025-07-02T22:11:32 IST" duration-ms="22600">
-      <class name="abpw.testCases.TC_Delete_Profile">
-        <test-method is-config="true" signature="Read_Excel_From_Profiles_Sheet()[pri:0, instance:abpw.testCases.TC_Delete_Profile@7876d598]" started-at="2025-07-02T22:11:10 IST" name="Read_Excel_From_Profiles_Sheet" finished-at="2025-07-02T22:11:11 IST" duration-ms="1073" status="PASS">
+    <test started-at="2025-07-22T17:47:54 IST" name="Default test" finished-at="2025-07-22T17:54:26 IST" duration-ms="391711">
+      <class name="abpw.testCases.TC_Registration_Production">
+        <test-method is-config="true" signature="Read_Excel_Data_From_Registration_Sheet()[pri:0, instance:abpw.testCases.TC_Registration_Production@198b6731]" started-at="2025-07-22T17:47:54 IST" name="Read_Excel_Data_From_Registration_Sheet" finished-at="2025-07-22T17:47:55 IST" duration-ms="603" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Read_Excel_From_Profiles_Sheet -->
-        <test-method is-config="true" signature="browserSetUp_new()[pri:0, instance:abpw.testCases.TC_Delete_Profile@7876d598]" started-at="2025-07-02T22:11:11 IST" name="browserSetUp_new" finished-at="2025-07-02T22:11:22 IST" duration-ms="10640" status="PASS">
+        </test-method> <!-- Read_Excel_Data_From_Registration_Sheet -->
+        <test-method is-config="true" signature="browserSetUp_new()[pri:0, instance:abpw.testCases.TC_Registration_Production@198b6731]" started-at="2025-07-22T17:47:55 IST" name="browserSetUp_new" finished-at="2025-07-22T17:48:02 IST" duration-ms="7546" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserSetUp_new -->
-        <test-method signature="login()[pri:1, instance:abpw.testCases.TC_Delete_Profile@7876d598]" started-at="2025-07-02T22:11:22 IST" name="login" finished-at="2025-07-02T22:11:22 IST" duration-ms="723" status="FAIL">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[Failed to decode response from marionette
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ABP-8200319', ip: '192.168.223.87', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 140.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20250627085530, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 18592, moz:profile: C:\Users\SUMAND~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: b1482cb9-b9e1-4e41-a4d1-0adc0b651a7a
-*** Element info: {Using=xpath, value=//*[@id='landingPage_topbar_register']}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: Failed to decode response from marionette
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ABP-8200319', ip: '192.168.223.87', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 140.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20250627085530, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 18592, moz:profile: C:\Users\SUMAND~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: b1482cb9-b9e1-4e41-a4d1-0adc0b651a7a
-*** Element info: {Using=xpath, value=//*[@id='landingPage_topbar_register']}
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy15.click(Unknown Source)
-at abpw.pageObject.abpwLandingPage.clickOnLoginLink(abpwLandingPage.java:32)
-at abpw.testCases.TC_Delete_Profile.login(TC_Delete_Profile.java:32)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+        <test-method signature="Registration_BasicDetails()[pri:1, instance:abpw.testCases.TC_Registration_Production@198b6731]" started-at="2025-07-22T17:48:02 IST" name="Registration_BasicDetails" finished-at="2025-07-22T17:49:23 IST" duration-ms="80519" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login -->
-        <test-method signature="delete_profile()[pri:2, instance:abpw.testCases.TC_Delete_Profile@7876d598]" started-at="2025-07-02T22:11:22 IST" name="delete_profile" finished-at="2025-07-02T22:11:32 IST" duration-ms="10041" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchSessionException">
-            <message>
-              <![CDATA[Tried to run command without establishing a connection
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ABP-8200319', ip: '192.168.223.87', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 140.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20250627085530, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 18592, moz:profile: C:\Users\SUMAND~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: b1482cb9-b9e1-4e41-a4d1-0adc0b651a7a]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ABP-8200319', ip: '192.168.223.87', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 140.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20250627085530, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 18592, moz:profile: C:\Users\SUMAND~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: b1482cb9-b9e1-4e41-a4d1-0adc0b651a7a
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
-at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.to(RemoteWebDriver.java:857)
-at abpw.testCases.TC_Delete_Profile.delete_profile(TC_Delete_Profile.java:45)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+        </test-method> <!-- Registration_BasicDetails -->
+        <test-method signature="Registration_OTP_Details()[pri:2, instance:abpw.testCases.TC_Registration_Production@198b6731]" started-at="2025-07-22T17:49:23 IST" name="Registration_OTP_Details" finished-at="2025-07-22T17:50:24 IST" duration-ms="60579" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- delete_profile -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:abpw.testCases.TC_Delete_Profile@7876d598]" started-at="2025-07-02T22:11:32 IST" name="tearDown" finished-at="2025-07-02T22:11:32 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- Registration_OTP_Details -->
+        <test-method signature="Registration_BasicDetails_3rd_Screen()[pri:3, instance:abpw.testCases.TC_Registration_Production@198b6731]" started-at="2025-07-22T17:50:24 IST" name="Registration_BasicDetails_3rd_Screen" finished-at="2025-07-22T17:51:24 IST" duration-ms="60603" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Registration_BasicDetails_3rd_Screen -->
+        <test-method signature="Registration_PhotoCropAndUpload()[pri:4, instance:abpw.testCases.TC_Registration_Production@198b6731]" started-at="2025-07-22T17:51:24 IST" name="Registration_PhotoCropAndUpload" finished-at="2025-07-22T17:52:25 IST" duration-ms="60584" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Registration_PhotoCropAndUpload -->
+        <test-method signature="Registration_PhotoId_Upload()[pri:5, instance:abpw.testCases.TC_Registration_Production@198b6731]" started-at="2025-07-22T17:52:25 IST" name="Registration_PhotoId_Upload" finished-at="2025-07-22T17:53:25 IST" duration-ms="60584" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Registration_PhotoId_Upload -->
+        <test-method signature="getAWID_From_Home()[pri:6, instance:abpw.testCases.TC_Registration_Production@198b6731]" started-at="2025-07-22T17:53:25 IST" name="getAWID_From_Home" finished-at="2025-07-22T17:54:26 IST" duration-ms="60576" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAWID_From_Home -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:abpw.testCases.TC_Registration_Production@198b6731]" started-at="2025-07-22T17:54:26 IST" name="tearDown" finished-at="2025-07-22T17:54:26 IST" duration-ms="6" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- abpw.testCases.TC_Delete_Profile -->
+      </class> <!-- abpw.testCases.TC_Registration_Production -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

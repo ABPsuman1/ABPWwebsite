@@ -102,6 +102,49 @@ public class BaseClass {
 		return otp;
 	}
 	
+	public String getOTP_from_CRM_QA(String Mobile_Number) throws InterruptedException, AWTException 
+	{
+		//--------- new tab open ------------------------
+				Robot robot = new Robot();                          
+				robot.keyPress(KeyEvent.VK_CONTROL); 
+				robot.keyPress(KeyEvent.VK_T); 
+				robot.keyRelease(KeyEvent.VK_CONTROL); 
+				robot.keyRelease(KeyEvent.VK_T);
+		//--------- end new tab open --------------------
+		//--------- find all tabs with in array ---------
+				 ArrayList<String> tabs2 = new ArrayList<String> (driver.getWindowHandles());
+				 driver.switchTo().window(tabs2.get(1));
+				 
+				Thread.sleep(3000);
+				driver.get("https://crmqa.abpweddings.com");
+				driver.findElement(By.xpath("//*[@id='inputEmail4']")).sendKeys("test.testcrmmgr@yopmail.com");
+				driver.findElement(By.xpath("//*[@id='Password']")).sendKeys("cic123");	
+				driver.findElement(By.xpath("//*[@type='submit']")).click();				
+//				--- Get AWID ---------------
+				Thread.sleep(3000);
+				driver.findElement(By.xpath("(//*[@aria-label='Search'])[1]")).click();
+				driver.findElement(By.xpath("(//*[@aria-label='Search'])[1]")).sendKeys("9932785146");
+				driver.findElement(By.xpath("//*[@id='button-addon2']")).click();
+				Thread.sleep(6000);
+				String AWID =driver.findElement(By.xpath("//td//a")).getText();					
+				Thread.sleep(3000);
+				driver.findElement(By.xpath("(//span[@class='icon'])[2]")).click();				
+				driver.findElement(By.xpath("//span[contains(text(),'Get Otp')]")).click();
+				driver.findElement(By.xpath("//*[@id='exampleFormControlTextarea1']")).click();
+				driver.findElement(By.xpath("//*[@id='exampleFormControlTextarea1']")).sendKeys(AWID);
+				driver.findElement(By.xpath("(//button)[5]")).click();
+				
+//				--- Get OTP ------------
+				String OTP_FROM_CRM = driver.findElement(By.xpath("//tbody//tr/td[2]")).getText();
+				driver.findElement(By.xpath("//*[text()='Logout']")).click();
+				
+				driver.close();
+				driver.switchTo().window(tabs2.get(0)); //---------> Switch to base tab
+				System.out.println("OTP Is:"+OTP_FROM_CRM);
+				
+				return OTP_FROM_CRM;
+	}
+	
 	 public static String[] otpNumberByNumber(String getOTP) 
 	 {
 		 
