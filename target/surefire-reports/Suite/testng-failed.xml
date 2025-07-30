@@ -9,7 +9,6 @@
           <include name="browserSetUp_new"/>
           <include name="Read_Excel_From_Profiles_Sheet"/>
           <include name="delete_profile"/>
-          <include name="login"/>
         </methods>
       </class> <!-- abpw.testCases.TC_Delete_Profile -->
     </classes>

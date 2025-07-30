@@ -7,8 +7,13 @@
         <methods>
           <include name="tearDown"/>
           <include name="browserSetUp_new"/>
-          <include name="deleteProfile"/>
+          <include name="getAWID_From_Home"/>
+          <include name="Registration_PhotoId_Upload"/>
           <include name="Read_Excel_Data_From_Registration_Sheet"/>
+          <include name="Registration_OTP_Details"/>
+          <include name="Registration_BasicDetails"/>
+          <include name="Registration_PhotoCropAndUpload"/>
+          <include name="Registration_BasicDetails_3rd_Screen"/>
         </methods>
       </class> <!-- abpw.testCases.TC_Registration_Production -->
     </classes>

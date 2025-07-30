@@ -2,44 +2,44 @@
 <testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-07-22T17:47:54 IST" name="Default suite" finished-at="2025-07-22T17:54:26 IST" duration-ms="391711">
+  <suite started-at="2025-07-25T11:20:11 IST" name="Default suite" finished-at="2025-07-25T11:23:43 IST" duration-ms="212751">
     <groups>
     </groups>
-    <test started-at="2025-07-22T17:47:54 IST" name="Default test" finished-at="2025-07-22T17:54:26 IST" duration-ms="391711">
+    <test started-at="2025-07-25T11:20:11 IST" name="Default test" finished-at="2025-07-25T11:23:43 IST" duration-ms="212751">
       <class name="abpw.testCases.TC_Registration_Production">
-        <test-method is-config="true" signature="Read_Excel_Data_From_Registration_Sheet()[pri:0, instance:abpw.testCases.TC_Registration_Production@198b6731]" started-at="2025-07-22T17:47:54 IST" name="Read_Excel_Data_From_Registration_Sheet" finished-at="2025-07-22T17:47:55 IST" duration-ms="603" status="PASS">
+        <test-method is-config="true" signature="Read_Excel_Data_From_Registration_Sheet()[pri:0, instance:abpw.testCases.TC_Registration_Production@198b6731]" started-at="2025-07-25T11:20:11 IST" name="Read_Excel_Data_From_Registration_Sheet" finished-at="2025-07-25T11:20:11 IST" duration-ms="841" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Read_Excel_Data_From_Registration_Sheet -->
-        <test-method is-config="true" signature="browserSetUp_new()[pri:0, instance:abpw.testCases.TC_Registration_Production@198b6731]" started-at="2025-07-22T17:47:55 IST" name="browserSetUp_new" finished-at="2025-07-22T17:48:02 IST" duration-ms="7546" status="PASS">
+        <test-method is-config="true" signature="browserSetUp_new()[pri:0, instance:abpw.testCases.TC_Registration_Production@198b6731]" started-at="2025-07-25T11:20:12 IST" name="browserSetUp_new" finished-at="2025-07-25T11:20:20 IST" duration-ms="8681" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserSetUp_new -->
-        <test-method signature="Registration_BasicDetails()[pri:1, instance:abpw.testCases.TC_Registration_Production@198b6731]" started-at="2025-07-22T17:48:02 IST" name="Registration_BasicDetails" finished-at="2025-07-22T17:49:23 IST" duration-ms="80519" status="PASS">
+        <test-method signature="Registration_BasicDetails()[pri:1, instance:abpw.testCases.TC_Registration_Production@198b6731]" started-at="2025-07-25T11:20:20 IST" name="Registration_BasicDetails" finished-at="2025-07-25T11:21:51 IST" duration-ms="90682" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Registration_BasicDetails -->
-        <test-method signature="Registration_OTP_Details()[pri:2, instance:abpw.testCases.TC_Registration_Production@198b6731]" started-at="2025-07-22T17:49:23 IST" name="Registration_OTP_Details" finished-at="2025-07-22T17:50:24 IST" duration-ms="60579" status="PASS">
+        <test-method signature="Registration_OTP_Details()[pri:2, instance:abpw.testCases.TC_Registration_Production@198b6731]" started-at="2025-07-25T11:21:51 IST" name="Registration_OTP_Details" finished-at="2025-07-25T11:22:20 IST" duration-ms="28857" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Registration_OTP_Details -->
-        <test-method signature="Registration_BasicDetails_3rd_Screen()[pri:3, instance:abpw.testCases.TC_Registration_Production@198b6731]" started-at="2025-07-22T17:50:24 IST" name="Registration_BasicDetails_3rd_Screen" finished-at="2025-07-22T17:51:24 IST" duration-ms="60603" status="PASS">
+        <test-method signature="Registration_BasicDetails_3rd_Screen()[pri:3, instance:abpw.testCases.TC_Registration_Production@198b6731]" started-at="2025-07-25T11:22:20 IST" name="Registration_BasicDetails_3rd_Screen" finished-at="2025-07-25T11:22:28 IST" duration-ms="8500" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Registration_BasicDetails_3rd_Screen -->
-        <test-method signature="Registration_PhotoCropAndUpload()[pri:4, instance:abpw.testCases.TC_Registration_Production@198b6731]" started-at="2025-07-22T17:51:24 IST" name="Registration_PhotoCropAndUpload" finished-at="2025-07-22T17:52:25 IST" duration-ms="60584" status="PASS">
+        <test-method signature="Registration_PhotoCropAndUpload()[pri:4, instance:abpw.testCases.TC_Registration_Production@198b6731]" started-at="2025-07-25T11:22:28 IST" name="Registration_PhotoCropAndUpload" finished-at="2025-07-25T11:22:52 IST" duration-ms="24060" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Registration_PhotoCropAndUpload -->
-        <test-method signature="Registration_PhotoId_Upload()[pri:5, instance:abpw.testCases.TC_Registration_Production@198b6731]" started-at="2025-07-22T17:52:25 IST" name="Registration_PhotoId_Upload" finished-at="2025-07-22T17:53:25 IST" duration-ms="60584" status="PASS">
+        <test-method signature="Registration_PhotoId_Upload()[pri:5, instance:abpw.testCases.TC_Registration_Production@198b6731]" started-at="2025-07-25T11:22:52 IST" name="Registration_PhotoId_Upload" finished-at="2025-07-25T11:22:55 IST" duration-ms="2848" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Registration_PhotoId_Upload -->
-        <test-method signature="getAWID_From_Home()[pri:6, instance:abpw.testCases.TC_Registration_Production@198b6731]" started-at="2025-07-22T17:53:25 IST" name="getAWID_From_Home" finished-at="2025-07-22T17:54:26 IST" duration-ms="60576" status="PASS">
+        <test-method signature="getAWID_From_Home()[pri:6, instance:abpw.testCases.TC_Registration_Production@198b6731]" started-at="2025-07-25T11:22:55 IST" name="getAWID_From_Home" finished-at="2025-07-25T11:23:43 IST" duration-ms="48213" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getAWID_From_Home -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:abpw.testCases.TC_Registration_Production@198b6731]" started-at="2025-07-22T17:54:26 IST" name="tearDown" finished-at="2025-07-22T17:54:26 IST" duration-ms="6" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:abpw.testCases.TC_Registration_Production@198b6731]" started-at="2025-07-25T11:23:43 IST" name="tearDown" finished-at="2025-07-25T11:23:43 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

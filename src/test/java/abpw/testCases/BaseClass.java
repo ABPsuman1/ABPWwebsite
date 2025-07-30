@@ -117,7 +117,7 @@ public class BaseClass {
 				 
 				Thread.sleep(3000);
 				driver.get("https://crmqa.abpweddings.com");
-				driver.findElement(By.xpath("//*[@id='inputEmail4']")).sendKeys("test.testcrmmgr@yopmail.com");
+				driver.findElement(By.xpath("//*[@id='inputEmail4']")).sendKeys("test");
 				driver.findElement(By.xpath("//*[@id='Password']")).sendKeys("cic123");	
 				driver.findElement(By.xpath("//*[@type='submit']")).click();				
 //				--- Get AWID ---------------
@@ -125,7 +125,7 @@ public class BaseClass {
 				driver.findElement(By.xpath("(//*[@aria-label='Search'])[1]")).click();
 				driver.findElement(By.xpath("(//*[@aria-label='Search'])[1]")).sendKeys("9932785146");
 				driver.findElement(By.xpath("//*[@id='button-addon2']")).click();
-				Thread.sleep(6000);
+				Thread.sleep(3000);
 				String AWID =driver.findElement(By.xpath("//td//a")).getText();					
 				Thread.sleep(3000);
 				driver.findElement(By.xpath("(//span[@class='icon'])[2]")).click();				

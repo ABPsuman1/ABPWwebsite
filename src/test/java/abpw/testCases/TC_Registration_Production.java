@@ -1,14 +1,10 @@
 package abpw.testCases;
-
-
 import java.awt.AWTException;
 import java.io.IOException;
 import org.openqa.selenium.By;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
-
 import abpw.pageObject.abpwLandingPage;
-
 import abpw.pageObject.abpwRegistrationPage;
 import abpw.utilities.XLUtils;
 
@@ -77,11 +73,14 @@ public class TC_Registration_Production extends BaseClass{
 				deleteProfile();
 				logger.info("Delete successfully");
 				
-				explicitWait("(//*[text()='Create your profile for '])[1]");
+				explicitWait("(//button[contains(text(),'Mobile Number')])[1]");
 				
-				AReg.clickMobileNumberField();
+				abpwRegistrationPage Reg= new abpwRegistrationPage(driver);
+//				driver.findElement(By.xpath("(//button[contains(text(),'Mobile Number')])[1]")).click();
+				Reg.clickMobileNumberField();
 				logger.info("Click on mobile number field");
-				AReg.setMobileNumber(Mobile_Number);
+				//driver.findElement(By.xpath("//*[@placeholder='Enter Mobile Number']")).sendKeys(Mobile_Number);
+				Reg.setMobileNumber(Mobile_Number);
 				logger.info("Enter mobile number");
 				}
 			else
@@ -91,10 +90,13 @@ public class TC_Registration_Production extends BaseClass{
 			
 //			AReg.selectCitizenOf(CitizenOf);
 //			logger.info("Select citizen of");
+			Thread.sleep(3000);
 			AReg.enterUserName(BrideGroomName);
 			logger.info("Enter bride/groom name");
+			Thread.sleep(3000);
 			AReg.selectGender(Gender);
 			logger.info("Select gender");
+			Thread.sleep(3000);
 			AReg.selectMotherTongue(MotherTongue);
 			logger.info("Select mother tongue");
 			AReg.selectDOB();
@@ -243,11 +245,12 @@ public class TC_Registration_Production extends BaseClass{
 	
 	public void deleteProfile() throws InterruptedException, AWTException 
 	{
+		driver.navigate().to("https://testfiles.abpweddings.com/plan");
 		driver.navigate().to("https://testfiles.abpweddings.com/deactivate-profile");
 		Thread.sleep(5000);
 		driver.findElement(By.xpath("(//*[@type='radio' ]//following::span)[3]")).click();
 		scrollPage();
-		Thread.sleep(10000);
+		Thread.sleep(3000);
 		driver.findElement(By.xpath("(//*[@class='row custom-toggle-row'])")).click();
 		driver.findElement(By.xpath("//*[@id='new-register-flow-step-6-photoid_upload-yes-btn']")).click();
 		driver.findElement(By.xpath("//button[@type='submit']")).click();
@@ -256,7 +259,10 @@ public class TC_Registration_Production extends BaseClass{
 		
 		driver.findElement(By.xpath("//*[@name='otp']")).sendKeys(OTP_CRM);
 		driver.findElement(By.xpath("//*[@class='btn btn-registration-primary-deactivate bd-confirm-submit-btn bd-submit-text-size']")).click();
+		Thread.sleep(6000);
 		
 	}
+	
+	
 
 }
